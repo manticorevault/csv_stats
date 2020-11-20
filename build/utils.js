@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.dateStringToData = void 0;
-exports.dateStringToData = function (dateString) {
+exports.dateStringToDate = void 0;
+exports.dateStringToDate = function (dateString) {
     var dateParts = dateString.split('/').map(function (value) {
         return parseInt(value);
     });
